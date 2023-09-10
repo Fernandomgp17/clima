@@ -1,8 +1,9 @@
+import { WeatherApp } from "./components/weatherApp"
 
 function App() {
   return (
    <div>
-    Nuevo proyecto del clima
+    <WeatherApp/>
    </div>
   )
 }
