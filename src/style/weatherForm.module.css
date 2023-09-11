@@ -1,0 +1,21 @@
+.container{
+  margin: 10px 0;
+  width: 100%;
+}
+
+.input{
+  background-color: #8a2be280;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 0px 10px;
+}

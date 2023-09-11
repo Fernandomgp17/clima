@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { WeatherForm } from "./weatherForm";
 import { WeatherMainInfo } from "./weatherMainInfo";
+import styles from '../style/weatherApp.module.css'
 
 const {VITE_REACT_APP_KEY,VITE_REACT_APP_URL} = import.meta.env;
 
@@ -32,7 +33,7 @@ const WeatherApp = () => {
   }
 
   return(
-    <div>
+    <div className={styles.weatherContainer} >
       <WeatherForm onChangeCity={handleChangeCity}/>
       <WeatherMainInfo weather={weather}/>
     </div>

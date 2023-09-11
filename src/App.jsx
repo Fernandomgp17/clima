@@ -1,8 +1,9 @@
 import { WeatherApp } from "./components/weatherApp"
+import './app.css';
 
 function App() {
   return (
-   <div>
+   <div className="app">
     <WeatherApp/>
    </div>
   )

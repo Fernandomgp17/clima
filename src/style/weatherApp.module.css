@@ -1,0 +1,8 @@
+
+.weatherContainer{
+  width: 500px;
+  height: 80%;
+  margin: 15px;
+  background-color: thistle;
+  border-radius: 10px;
+}
